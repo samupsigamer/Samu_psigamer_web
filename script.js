@@ -1,1 +1,0 @@
-const b=document.getElementById("menu"),n=document.querySelector("nav");b.onclick=()=>{n.style.display=n.style.display==="flex"?"none":"flex";n.style.position="absolute";n.style.top="68px";n.style.left="0";n.style.right="0";n.style.padding="20px";n.style.background="#fbf7f1";n.style.flexDirection="column"};document.getElementById("year").textContent=new Date().getFullYear();
